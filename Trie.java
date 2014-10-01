@@ -23,9 +23,9 @@
             }
         }
 
-        public void add(String word)
+        public boolean add(String word)
         {
-            addRE(root,word + ENDOFWORD, 0);
+            return addRE(root,word + ENDOFWORD, 0);
         }
 
         private boolean addRE(Node root, String word, int wordIndex)
