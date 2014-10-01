@@ -14,3 +14,5 @@ public class TrieTest {
 	//Tests
 	
 }
+
+Test 
